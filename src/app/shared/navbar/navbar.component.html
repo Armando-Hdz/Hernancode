@@ -1,33 +1,39 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light ">
   <a class="navbar-brand" [routerLink]="['/home']">
-    <img src="../assets/logo/logo-completo.png" alt="logo-completo">
+    <img src="../assets/logo/logo-completo.png" alt="logo-completo" class="logo">
   </a>
-  <button class="navbar-toggler" type="button" data-bs-toggle = "collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-bs-toggle = "collapse" 
+    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+    aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse div-nav" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/me']">Yo</a>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/me']">
+          <img src="../assets/icons/equipo.png" alt="icon-menu" class="icon-menu"> 
+          Nosotros</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/products']">Mis Productos</a>
+        <a class="nav-link" [routerLink]="['/products']">
+          <img src="../assets/icons/productos.png" alt="icon-menu" class="icon-menu"> 
+          Productos</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Soluciones
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" [routerLink]="['/software']">Software pensado para ti</a>
-          <a class="dropdown-item" [routerLink]="['/hardware']">Hardware pensado para ti</a>
-        </div>
+      <li class="nav-item active">
+        <a class="nav-link" [routerLink]="['/solutions']">
+          <img src="../assets/icons/soluciones.png" alt="icon-menu" class="icon-menu">
+          Soluciones</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/blog']">Blog</a>
+        <a class="nav-link" [routerLink]="['/blog']">
+          <img src="../assets/icons/blog1.png" alt="icon-menu" class="icon-menu"> 
+          Blog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="['/contact']">Contacto</a>
+        <a class="nav-link" [routerLink]="['/contact']">
+          <img src="../assets/icons/contacto.png" alt="icon-menu" class="icon-menu"> 
+          Contacto</a>
       </li>
     </ul>
   </div>

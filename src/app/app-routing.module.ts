@@ -8,6 +8,7 @@ import { IComponent } from './ui/i/i.component';
 import { ProductsComponent } from './ui/products/products.component';
 import { HardComponent } from './ui/solutions/hard/hard.component';
 import { SoftComponent } from './ui/solutions/soft/soft.component';
+import { SolutionsComponent } from './ui/solutions/solutions.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,10 @@ const routes: Routes = [
   {
     path: 'products',
     component: ProductsComponent
+  },
+  {
+    path: 'solutions',
+    component: SolutionsComponent
   },
   {
     path: 'hardware',
