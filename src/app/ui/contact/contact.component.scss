@@ -1,0 +1,73 @@
+.contenedor{
+    width: 100%;
+    height: 110%;
+}
+
+.img-form{
+    width: 100%;
+}
+
+form{
+    width: 50%;
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 25%;
+    border: 1px solid black;
+    background: #00000069;
+    color: #ffff;
+
+    padding: 3% 0 3% 3%;
+}
+
+input{
+    width: 90%;
+    background: #0000008f;
+    color: #ffff;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.form-control:focus{
+    border: 2px solid cyan;
+    background: #0000008f;
+    color: #ffff;
+}
+
+label{
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+select{
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background: #00000069;
+    color: #ffff;
+}
+
+select:focus{
+    border: 2px solid cyan;
+    background: #0000008f;
+}
+
+.option:hover{
+    background: cyan; //PENDIENTE
+    cursor: pointer;
+}
+
+textarea{
+    width: 90%;
+    background: #0000008f;
+    border: 1px solid black;
+    color: #ffff;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+button{
+    width: 90%;
+    margin-top: 20px;
+    font-weight: bolder;
+}
