@@ -1,0 +1,171 @@
+.contenedor{
+    width: 90%;
+    margin: auto;
+    border-bottom: 50px;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+}
+
+.img-banner{
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros{
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 33%;
+    font-size: 70px;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white ;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+//DIV NOSOTROS ********************************************
+.div-nosotros{
+    width: 100%;
+    height: 430px;
+    margin-top: 20px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.nosotros-info{
+    width: 50%;
+    display: inline-table;
+    padding: 10px;
+}
+
+.h2-nosotros{
+        color: #5DADE2;
+        text-align: center;
+        font-weight: 600;
+        font:  bold 100px verdana, Serif;
+        text-shadow: -4px 3px 0 gray;
+        //border-bottom: 1px solid #5DADE2;
+        //border-top: 2px solid #5DADE2 ;
+        //border-radius: 10px;
+}
+
+.nosotros-img{
+    width: 50%;
+    display: inline-table;
+}
+
+.img-nosotros{
+    width: 100%;
+    border-radius: 10px;
+}
+//DIV MISION ************************************************
+.div-mision{
+    width: 100%;
+    height: 430px;
+    margin-top: 20px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.mision-info{
+    width: 50%;
+    display: inline-table;
+    padding: 15px; 
+}
+
+.h2-mision{
+    color: #5DADE2;
+    text-align: center;
+    font-weight: 600;
+    font:  bold 100px verdana, Serif;
+    text-shadow: -4px 3px 0 gray;
+}
+
+.mision-img{
+    width: 50%;
+    display: inline-table;
+}
+
+.img-mision{
+    width: 100%;
+    height: 410px;
+    border-radius: 10px;
+}
+//DIV VISION ************************************************
+.div-vision{
+    width: 100%;
+    height: 430px;
+    margin-top: 20px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.vision-info{
+    width: 50%;
+    display: inline-table;
+    padding: 10px;
+}
+
+.h2-vision{
+    color: #5DADE2;
+    text-align: center;
+    font-weight: 600;
+    font:  bold 100px verdana, Serif;
+    text-shadow: -4px 3px 0 gray;
+}
+
+
+.vision-img{
+    width: 50%;
+    display: inline-table;
+}
+
+.img-vision{
+    width: 100%;
+    border-radius: 10px;
+}
+
+//DIV VALORES ************************************************
+.div-valores{
+    width: 100%;
+    height: 430px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+.valores-info{
+    width: 50%;
+    display: inline-table;
+    padding: 15px;
+}
+
+.h2-valores{
+    color: #5DADE2;
+    text-align: center;
+    font-weight: 600;
+    font:  bold 100px verdana, Serif;
+    text-shadow: -4px 3px 0 gray;
+}
+
+
+.valores-img{
+    width: 50%;
+    display: inline-table;
+}
+
+.img-valores{
+    width: 100%;
+    height: 410px;
+    border-radius: 10px;
+}

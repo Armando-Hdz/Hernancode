@@ -45,7 +45,7 @@ const routes: Routes = [
     component: SoftComponent
   },
   {
-    path: 'me',
+    path: 'us',
     component: IComponent
   }
 ];
