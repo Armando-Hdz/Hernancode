@@ -8,7 +8,7 @@ import { HardComponent } from './solutions/hard/hard.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { IComponent } from './i/i.component';
-
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -23,7 +23,8 @@ import { IComponent } from './i/i.component';
     IComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HomeComponent,

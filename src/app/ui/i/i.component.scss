@@ -169,3 +169,17 @@ p{
     height: 410px;
     border-radius: 10px;
 }
+
+.i-valores{
+    margin-left: 15%;
+    font-size: 18px;
+    list-style: circle;
+    font-weight: bolder;
+}
+
+.i-valores:hover{
+    margin-left: 15%;
+    font-size: 22px;
+    color: #5DADE2;
+    font-weight: bolder;
+}
